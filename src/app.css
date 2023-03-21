@@ -23,6 +23,16 @@ body {
   background-position-y: bottom;
 }
 
+@font-face {
+  font-family: "calligraphy";
+  src: url("font.otf");
+}
+
+h1 {
+  font-family: "calligraphy";
+  font-size: 35pt;
+}
+
 .list {
   background-color: rgba(255, 255, 255, 0.317);
   backdrop-filter: blur(40px);
