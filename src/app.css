@@ -5,7 +5,8 @@
 
   color-scheme: dark;
   color: white;
-  background-color: #242424;
+  background: rgb(176,109,221);
+  background: linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,4 +18,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(background.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.list {
+  background-color: rgba(255, 255, 255, 0.317);
 }
