@@ -5,8 +5,8 @@
 
   color-scheme: dark;
   color: white;
-  background: rgb(176,109,221);
-  background: linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%);
+  background:
+  linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,4 +25,26 @@ body {
 
 .list {
   background-color: rgba(255, 255, 255, 0.317);
+  backdrop-filter: blur(40px);
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.424);
+  opacity: 1; /* Firefox */
+}
+
+progress::-webkit-progress-value { 
+  background: linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%); 
+  border-radius: 5px;
+}
+progress::-moz-progress-bar { 
+  background: linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%); 
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgba(255, 255, 255, 0.436);
+  box-shadow: 0 0 10px rgba(176, 109, 221, 0.511);
+  border-radius: 5px;
+}
+

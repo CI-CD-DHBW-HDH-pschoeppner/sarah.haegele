@@ -61,11 +61,12 @@
   }
   progress {
     margin: 5px;
-    appearance: none;
     width: 60%;
     height: 1rem;
     display: block;
     box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
   }
   form {
     display: block;
@@ -75,5 +76,9 @@
   form > input {
     width: 100%;
     font-size: 1.5rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(123deg, rgba(176,109,221,1) 0%, rgba(255,85,85,1) 50%, rgba(255,198,118,1) 100%);
   }
 </style>

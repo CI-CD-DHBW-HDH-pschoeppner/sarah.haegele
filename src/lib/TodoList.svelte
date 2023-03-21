@@ -50,7 +50,8 @@
     flex-direction: column;
     width: 60%;
     height: 60%;
-    border: 2px solid gray;
+    border: 1px solid white;
+    border-radius: 5px;
     padding: 5px;
     font-size: 1.5rem;
     overflow-y: scroll;
@@ -59,6 +60,10 @@
     font-size: inherit;
     width: 60%;
     margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.327);
+    backdrop-filter: blur(40px);
   }
   .item {
     display: flex;
@@ -69,6 +74,7 @@
     word-wrap: break-word;
     justify-content: space-between;
     flex-wrap: nowrap;
+    border-radius: 5px;
   }
   .item > span {
     word-wrap: break-word;
@@ -77,10 +83,11 @@
     text-align: center;
   }
   .item > button {
-    text-shadow: 0 0 10px black;
-    background-color: #565050;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.474);
     outline: none;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.295);
     cursor: pointer;
+    border-radius: 5px;
   }
 </style>
